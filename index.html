@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Developer Portfolio</title>
+    <title>Happy Tuesday!</title>
     <style>
         * {
             margin: 0;
@@ -306,7 +306,7 @@
         
         .project-description {
             color: #c4b5fd;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             line-height: 1.6;
         }
         
@@ -479,6 +479,11 @@
     </div>
     
     <script>
+        // Dynamic title based on day of the week
+        const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const today = new Date().getDay();
+        document.title = `Happy ${days[today]}!`;
+        
         // Add fade-in animation on scroll
         const observerOptions = {
             threshold: 0.1,
