@@ -43,27 +43,27 @@
         
         @keyframes rainFall {
             0% { 
-                transform: translateY(-100px) translateX(0); 
+                transform: translateY(-150px) translateX(0); 
                 opacity: 0; 
             }
-            10% { opacity: 0.7; }
-            90% { opacity: 0.7; }
+            5% { opacity: 0.7; }
+            95% { opacity: 0.7; }
             100% { 
                 transform: translateY(100vh) translateX(30px); 
                 opacity: 0; 
             }
         }
         
-        .raindrop:nth-child(1) { left: 5%; animation-duration: 3s; animation-delay: 0s; height: 25px; }
-        .raindrop:nth-child(2) { left: 15%; animation-duration: 2.5s; animation-delay: 0.5s; height: 18px; }
-        .raindrop:nth-child(3) { left: 25%; animation-duration: 3.2s; animation-delay: 1s; height: 22px; }
-        .raindrop:nth-child(4) { left: 35%; animation-duration: 2.8s; animation-delay: 1.5s; height: 20px; }
-        .raindrop:nth-child(5) { left: 45%; animation-duration: 3.5s; animation-delay: 0.3s; height: 28px; }
-        .raindrop:nth-child(6) { left: 55%; animation-duration: 2.6s; animation-delay: 1.2s; height: 16px; }
-        .raindrop:nth-child(7) { left: 65%; animation-duration: 3.1s; animation-delay: 2s; height: 24px; }
-        .raindrop:nth-child(8) { left: 75%; animation-duration: 2.9s; animation-delay: 0.8s; height: 19px; }
-        .raindrop:nth-child(9) { left: 85%; animation-duration: 3.3s; animation-delay: 1.8s; height: 21px; }
-        .raindrop:nth-child(10) { left: 95%; animation-duration: 2.7s; animation-delay: 0.2s; height: 17px; }
+        .raindrop:nth-child(1) { left: 5%; animation-duration: 3s; animation-delay: -1s; height: 25px; }
+        .raindrop:nth-child(2) { left: 15%; animation-duration: 2.5s; animation-delay: -0.5s; height: 18px; }
+        .raindrop:nth-child(3) { left: 25%; animation-duration: 3.2s; animation-delay: -2s; height: 22px; }
+        .raindrop:nth-child(4) { left: 35%; animation-duration: 2.8s; animation-delay: -1.5s; height: 20px; }
+        .raindrop:nth-child(5) { left: 45%; animation-duration: 3.5s; animation-delay: -0.3s; height: 28px; }
+        .raindrop:nth-child(6) { left: 55%; animation-duration: 2.6s; animation-delay: -1.2s; height: 16px; }
+        .raindrop:nth-child(7) { left: 65%; animation-duration: 3.1s; animation-delay: -2.5s; height: 24px; }
+        .raindrop:nth-child(8) { left: 75%; animation-duration: 2.9s; animation-delay: -0.8s; height: 19px; }
+        .raindrop:nth-child(9) { left: 85%; animation-duration: 3.3s; animation-delay: -1.8s; height: 21px; }
+        .raindrop:nth-child(10) { left: 95%; animation-duration: 2.7s; animation-delay: -0.2s; height: 17px; }
         
         /* Container */
         .container {
@@ -310,23 +310,6 @@
             line-height: 1.6;
         }
         
-        .project-tech {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 20px;
-        }
-        
-        .tech-tag {
-            padding: 4px 12px;
-            background: rgba(124,58,237,0.2);
-            color: #c4b5fd;
-            border: 1px solid rgba(124,58,237,0.3);
-            border-radius: 15px;
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
-        
         .project-links {
             display: flex;
             gap: 15px;
@@ -474,14 +457,8 @@
                 <div class="project-card">
                     <h3 class="project-title">Rainbow Calculator</h3>
                     <p class="project-description">
-                        A vibrant, interactive calculator featuring dynamic rainbow themes and smooth animations. Built with modern web technologies to demonstrate clean UI design and responsive functionality.
+                        A vibrant, interactive calculator featuring dynamic rainbow themes and smooth animations. Built with modern web technologies to demonstrate clean UI design.
                     </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Animations</span>
-                    </div>
                     <div class="project-links">
                         <a href="https://claude.ai/public/artifacts/e9b0a05a-8770-46c0-8999-acbb04a45bd0?fullscreen=true" target="_blank" class="project-link">See Project</a>
                     </div>
@@ -491,14 +468,8 @@
                 <div class="project-card">
                     <h3 class="project-title">Space Jive</h3>
                     <p class="project-description">
-                        An immersive space-themed interactive experience combining cosmic visuals with engaging gameplay mechanics. Features dynamic animations and responsive design for seamless user interaction.
+                        An immersive space-themed interactive experience combining cosmic visuals with engaging gameplay mechanics. Features dynamic animations for seamless user interaction.
                     </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Canvas API</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">Game Logic</span>
-                    </div>
                     <div class="project-links">
                         <a href="https://claude.ai/public/artifacts/4cf39a02-0d79-407c-aa5e-6e755c60ec72?fullscreen=true" target="_blank" class="project-link">See Project</a>
                     </div>
